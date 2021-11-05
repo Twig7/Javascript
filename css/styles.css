@@ -5,3 +5,8 @@
 .day, .breakfast, .pet, .monsters {
   margin-top: 20px;
 }
+.buttons {
+  border: solid #ECBDC4;
+  text-align: center;
+  margin-top: 20px;
+}
