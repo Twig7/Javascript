@@ -1,32 +1,21 @@
 $(document).ready(function() {
   
-  const cryptid=$("#cryptid").val();
-  const time=$("#time").val();
-  const monster=$("#monster").val();
-  const smell=$("#smell").val();
-  const food=$("#food").val();
-  const pets=$("#pets").val();
+  let cryptid=$("#cryptid").val();
+  let time=$("#time").val();
+  let monster=$("#monster").val();
+  let smell=$("#smell").val();
+  let food=$("#food").val();
+  let pets=$("#pets").val();
 
-  $(cryptid).val();
-  $(time).val();
-  $(monster).val();
-  $(smell).val();
-  $(food).val();
-  $(pets).val();
-
-  const cryptid = parseInt(cryptid);
-  const time = parseInt(time);
-  const monster = parseInt(monster);
-  const smell = parseInt(smell);
-  const food = parseInt(food);
-  const pets = parseInt(pets);
+  let cryptid = parseInt(cryptid);
+  let time = parseInt(time);
+  let monster = parseInt(monster);
+  let smell = parseInt(smell);
+  let food = parseInt(food);
+  let pets = parseInt(pets);
 
   function add (cryptid, time, monster, smell, food, pets) {
     return cryptid + time + monster + smell + food + pets;
   }
   const result = (cryptid + time + monster + smell + food + pets);
-  
-  $("myBtn").click(function() {
-    $(".result1").show();
-  });
 });
