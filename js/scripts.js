@@ -8,16 +8,16 @@ $(document).ready(function() {
     let food=parseInt($("#food").val());
     let pets=parseInt($("#pets").val()); 
     let result = (cryptid + time + monster + smell + food + pets);
-    console.log(cryptid, time, monster, smell, food, pets, result);
+    console.log(result);
   });
 });
   function add (cryptid, time, monster, smell, food, pets) {
     return cryptid + time + monster + smell + food + pets;
   }
-  if (result >= 15) {
-    $('#result1').show();
-  } else if (result <= 10); {
-    $('#result2').show();
-  } else {
-    $('#result3').show();
+if (result > 15) {
+  $('#.result1').show();
+} else if (result <= 10) {
+  $('#.result2').show();
+} else {
+  $('#.result3').show();
   }
