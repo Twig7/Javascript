@@ -17,60 +17,62 @@
       <p>Why don't we find out a little bit more about you?</p>
     </div>
   <div class="container">
-    <div class="row">
-      <div class="col-6">
-        <p><strong>What is your favorite cryptid?</strong></p>
-        <select class="form-control" id="cryptid">
-          <option value="3">Mothman</option>
-          <option value="1">Loch Ness Monster</option>
-          <option value="2">Jackalope</option>
-        </select>
-        <div class="day">
-          <p><strong>When is your favorite time of day?</strong></p>
-          <select class="form-control" id="time">
-            <option value="1">Morning! I'm an early bird!</option>
-            <option value="2">Afternoon. With the sun high in the sky!</option>
-            <option value="3">Night! Night owls for the win!</option>
+    <form id="quiz">
+      <div class="row">
+        <div class="col-6">
+          <p><strong>What is your favorite cryptid?</strong></p>
+          <select class="form-control" id="cryptid">
+            <option value="3">Mothman</option>
+            <option value="1">Loch Ness Monster</option>
+            <option value="2">Jackalope</option>
           </select>
+          <div class="day">
+            <p><strong>When is your favorite time of day?</strong></p>
+            <select class="form-control" id="time">
+              <option value="1">Morning! I'm an early bird!</option>
+              <option value="2">Afternoon. With the sun high in the sky!</option>
+              <option value="3">Night! Night owls for the win!</option>
+            </select>
+          </div>
+          <div class="monsters">
+            <p><strong>Which classic movie monster is the coolest?</strong></p>
+            <select class="form-control" id="monster">
+              <option value="3">Dracula!</option>
+              <option value="1">Frankenstein's Monster</option>
+              <option value="2">Wolfman OoOOoooOoOOo</option>
+            </select>
+          </div>
         </div>
-        <div class="monsters">
-          <p><strong>Which classic movie monster is the coolest?</strong></p>
-          <select class="form-control" id="monster">
-            <option value="3">Dracula!</option>
-            <option value="1">Frankenstein's Monster</option>
-            <option value="2">Wolfman OoOOoooOoOOo</option>
+        <div class="col-6">    
+          <p><strong>What's your favorite smell?</strong></stron></p>
+          <select class="form-control" id="smell">
+            <option value="3">Something floral, like roses or lavander!</option>
+            <option value="2">Something that reminds me of the woods, like oak or moss.</option>
+            <option value="1">Something that smells like food!</option>
           </select>
-        </div>
+          <div class="breakfast">
+            <p><strong>What's your favorite breakfast food?</strong></p>
+            <select class="form-control" id="food">
+              <option value="1">Eggs! You can make them so many ways!</option>
+              <option value="3">Pancakes! Bluebery, chocolate chip, so many options!</option>
+              <option value="2">I vibe with smoothies! Perfect to take on the go!</option>
+            </select>
+          </div>
+          <div class="pet">
+            <p><strong>Are you a cat or a dog person? You know, for reasons.</strong></p>
+            <select class="form-control" id="pets">
+              <option value="3">Cats all the way!</option>
+              <option value="2">Dogs are clearly the best</option>
+              <option value="1">Why does this matter???</option>
+            </select>
+          </div>
+        </div>  
       </div>
-      <div class="col-6">    
-        <p><strong>What's your favorite smell?</strong></stron></p>
-        <select class="form-control" id="smell">
-          <option value="3">Something floral, like roses or lavander!</option>
-          <option value="2">Something that reminds me of the woods, like oak or moss.</option>
-          <option value="1">Something that smells like food!</option>
-        </select>
-        <div class="breakfast">
-          <p><strong>What's your favorite breakfast food?</strong></p>
-          <select class="form-control" id="food">
-            <option value="1">Eggs! You can make them so many ways!</option>
-            <option value="3">Pancakes! Bluebery, chocolate chip, so many options!</option>
-            <option value="2">I vibe with smoothies! Perfect to take on the go!</option>
-          </select>
-        </div>
-        <div class="pet">
-          <p><strong>Are you a cat or a dog person? You know, for reasons.</strong></p>
-          <select class="form-control" id="pets">
-            <option value="3">Cats all the way!</option>
-            <option value="2">Dogs are clearly the best</option>
-            <option value="1">Why does this matter???</option>
-          </select>
-        </div>
-      </div>  
-    </div>
-    <div class="buttons">
-      <button id="submit" class="btn">Get your answer!</button>  
-    </div>
+      <div class="buttons">
+        <button id="submit" class="btn">Get your answer!</button>  
+      </div>
   </div>
+</form>
   <div class="result1">
     <h2>Congrats! You got Python!</h2>
     <p>It's too early in my Epicodus experience for me to know anything about Python, but I do know that a python is also a cool snake, so that means you must also be cool!</p>
