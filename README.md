@@ -24,8 +24,8 @@ _This is a short personality quiz that will let you know which programming langu
 
 ## Known Bugs
 
-* _Javascript code doesn't actually do what I'd like it to do_
-* _Results do not reveal when button is pressed_
+* _If else statements won't show the results they're supposed to._
+
 
 
 ## License
