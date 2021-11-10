@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $("#quiz").submit(function(event) {
-    event.preventDefault();
     let cryptid= parseInt($("#cryptid").val());
     let time= parseInt($("#time").val());
     let monster=parseInt($("#monster").val());
@@ -16,6 +15,7 @@ $(document).ready(function() {
     } else {
       $("#result3").show();
     }
+    event.preventDefault();
   });
 });
   function add (cryptid, time, monster, smell, food, pets) {
