@@ -9,11 +9,11 @@ $(document).ready(function() {
     let result = (cryptid + time + monster + smell + food + pets);
     console.log(result);
     if (result > 15) {
-      $("#result1").show();
+      $(".result1").show();
     } else if (result <= 10) {
-      $("#result2").show();
+      $(".result2").show();
     } else {
-      $("#result3").show();
+      $(".result3").show();
     }
     event.preventDefault();
   });
@@ -21,6 +21,7 @@ $(document).ready(function() {
   function add (cryptid, time, monster, smell, food, pets) {
     return cryptid + time + monster + smell + food + pets;
   }
+
 
 // if (result > 15) {
 //   $('#result1').show();
