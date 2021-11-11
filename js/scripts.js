@@ -21,6 +21,9 @@ $(document).ready(function() {
   function add (cryptid, time, monster, smell, food, pets) {
     return cryptid + time + monster + smell + food + pets;
   }
+  function refreshPage(){
+    window.location.reload();
+} 
 
 
 // if (result > 15) {
