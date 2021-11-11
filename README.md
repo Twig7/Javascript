@@ -24,7 +24,7 @@ _This is a short personality quiz that will let you know which programming langu
 
 ## Known Bugs
 
-* _If else statements won't show the results they're supposed to._
+* _If the "retake test" button is not pressed, new results will stack onto past results._
 
 
 
